@@ -1,14 +1,12 @@
-  import React from 'react';
-  import ReactDOM from 'react-dom';
-  import App  from "./App"
-  
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Template3 from "./Pages/SignUpPage/Template3";
 
-
-  ReactDOM.render
-  (
+ReactDOM.render(
     <>
-      <App/>
-      </>
-    ,document.getElementById('root')
-  );
+        <Template3/>
+    </>
+    ,
+    document.getElementById('root')
+);
     

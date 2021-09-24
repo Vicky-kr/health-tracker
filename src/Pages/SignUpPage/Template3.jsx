@@ -1,9 +1,8 @@
 import React from "react";
-import  "./csst/csst3.css";
-import Navbarc from "./Navbarc";
-import Rightpart from "./Rightpart";
-import background from './bgimg.png';
-
+import  "./Template3.css";
+import Rightpart from "../../Rightpart";
+import background from '../../bgimg.png';
+import {Navbar} from "../../Navbar/Navbar";
 
 
 
@@ -11,7 +10,7 @@ const Template3 = () =>
 {
          return(
              <>
-         <Navbarc/>
+         <Navbar/>
              <div className = "mainc3">
                  <div className  = "lp3" style={{ backgroundImage: `url(${background})` }}>
         
