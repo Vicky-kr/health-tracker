@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Template3 from "./Pages/SignUpPage/Template3";
+import App from "./App";
 
 ReactDOM.render(
     <>
-        <Template3/>
+        <App/>
     </>
     ,
     document.getElementById('root')

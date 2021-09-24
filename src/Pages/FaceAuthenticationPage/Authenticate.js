@@ -1,4 +1,6 @@
-import {Navbar} from "../../Navbar/Navbar";
+import { Navbar } from "../../Navbar/Navbar";
+import Rightpart from "../../Rightpart";
+import './Authenticate.css'
 
 function Authenticate() {
     function MouseOver(event) {
@@ -15,21 +17,29 @@ function Authenticate() {
 
     return (
         <div className='main'>
-            <Navbar/>
-            <div style={styles.container}>
-                <p>Authenticate Yourself</p>
-                {/*<p style={styles.parag}>&#8902; Scan</p>*/}
-                <img
-                    src={'https://img-premium.flaticon.com/png/512/2383/premium/2383542.png?token=exp=1632366082~hmac=c615e06b2c04cc5cffd56a5020835f5e'}
-                    style={styles.image} alt="face"/>
-                <br/>
-                <button onMouseOver={MouseOver} onMouseOut={MouseOut} style={styles.btn}>Authenticate</button>
+            <Navbar />
+            <div style={styles.bottom}>
+                <div style={styles.container} className="left">
+                    <p>Authenticate Yourself</p>
+                    {/*<p style={styles.parag}>&#8902; Scan</p>*/}
+                    <img
+                        src={'https://img-premium.flaticon.com/png/512/2383/premium/2383542.png?token=exp=1632366082~hmac=c615e06b2c04cc5cffd56a5020835f5e'}
+                        style={styles.image} alt="face" />
+                    <br />
+                    <button onMouseOver={MouseOver} onMouseOut={MouseOut} style={styles.btn}>Authenticate</button>
+                </div>
+                <Rightpart />
             </div>
         </div>
     )
 }
 
 const styles = {
+    bottom:{
+        display : "flex",
+        flexDirection: "row",
+        flexWrap: "wrap",
+    },
     parag: {
         color: 'blue',
         fontSize: 16,

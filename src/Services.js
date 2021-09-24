@@ -1,5 +1,6 @@
 import React from "react";
 import Service from "./Service";
+import './Services.css'
 
 class Services extends React.Component{
     constructor() {

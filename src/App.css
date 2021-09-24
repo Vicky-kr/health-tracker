@@ -36,32 +36,5 @@
     transform: rotate(360deg);
   }
 }
-.Service{
-  /* position:absolute; */
-  /* z-index:100; */
-  border : 1px solid black;
-  height: 200px;
-  width: 250px;
-  margin: 10px;
-  text-align: left;
-  padding: 15px;
-  border-radius: 5px;
-  background-color: white;
-}
-.Services{
-  /* position: relative; */
-  /* z-index: -1; */
-  border: 1px solid black;
-  padding: 5px;
-  margin: 2px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 72%;
-  height: 81%;
-  background-color: black;
-  /* background-color: skyblue; */
-}
-.Width70{
-  width: 70%;
-}
+
+

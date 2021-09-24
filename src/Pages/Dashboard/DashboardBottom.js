@@ -1,6 +1,6 @@
 import Services from "../../Services";
 import {Navbar} from "../../Navbar/Navbar";
-
+import  "./DashboardBottom.css";
 function DashboardBottom() {
     function MouseOver(event) {
         event.target.style.backgroundColor = 'black';
@@ -16,7 +16,6 @@ function DashboardBottom() {
 
     return (
         <>
-            <Navbar/>
             <div style={styles.container}>
                 <h1>Dashboard</h1>
                 <p className="Width70">We provide to you the best choiches for you. Adjust it to your health needs and
@@ -49,7 +48,7 @@ const styles = {
         display: "flex",
         textAlign: "left",
         flexDirection: "column",
-        border: '1px solid black',
+        // border: '1px solid black',
         alignItems: "center",
         justifyContent: "center",
         margin: 1
