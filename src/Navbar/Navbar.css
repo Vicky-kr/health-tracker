@@ -69,6 +69,9 @@
     min-height: 23px;
     min-width: 53px;
 }
+.nav-list:hover{
+    cursor: pointer;
+}
 
 .find-a-doctor {
     font-family: 'Mulish',sans-serif;
