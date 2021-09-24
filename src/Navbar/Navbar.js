@@ -14,7 +14,7 @@ export const Navbar = () => {
     return (
         <>
             <div className="frame-2">
-                <div className="logo">
+                <div className="logo-navbar">
                     <div className="overlap-group">
                         <div className="t">
                             {frame.t}
