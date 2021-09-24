@@ -9,8 +9,8 @@ import Dashboard from "./Pages/Dashboard/Dashboard";
 const App = () =>
 {
     return(
-     <Authenticate/>
-    // <UserAuthenticate/>
+    //  <Authenticate/>
+      <UserDuotone/>
     // <Dashboard/>
     )
 };

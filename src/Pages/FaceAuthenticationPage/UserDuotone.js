@@ -1,4 +1,5 @@
 import {Navbar} from "../../Navbar/Navbar";
+import Rightpart from "../../Rightpart";
 
 function UserDuotone() {
     function MouseOver(event) {
@@ -16,6 +17,7 @@ function UserDuotone() {
     return (
         <>
             <Navbar/>
+            <div style={styles.bottom}>
             <div style={styles.container}>
                 <p>Authenticate Yourself</p>
                 <img src={'https://cdn-icons-png.flaticon.com/512/747/747376.png'} style={styles.image} alt="face"/>
@@ -26,11 +28,18 @@ function UserDuotone() {
                     </button>
                 </div>
             </div>
+            <Rightpart/>
+            </div>
+            
         </>
     )
 }
 
 const styles = {
+    bottom:{
+        display : "flex",
+        flexDirection: "row",
+    },
     btnCon: {
         display: "flex",
     },

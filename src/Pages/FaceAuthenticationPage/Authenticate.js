@@ -1,6 +1,5 @@
 import { Navbar } from "../../Navbar/Navbar";
 import Rightpart from "../../Rightpart";
-import './Authenticate.css'
 
 function Authenticate() {
     function MouseOver(event) {
@@ -38,7 +37,6 @@ const styles = {
     bottom:{
         display : "flex",
         flexDirection: "row",
-        flexWrap: "wrap",
     },
     parag: {
         color: 'blue',
@@ -70,7 +68,8 @@ const styles = {
         border: '1px solid black',
         alignItems: "center",
         justifyContent: "center",
-        margin: 10,
+        margin: 20,
+        marginRight:60,
         // paddingLeft:50,
         borderRadius: 25,
     }
