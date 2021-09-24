@@ -10,8 +10,8 @@ const App = () =>
 {
     return(
     //  <Authenticate/>
-      <UserDuotone/>
-    // <Dashboard/>
+    //   <UserDuotone/>
+    <Dashboard/>
     )
 };
 

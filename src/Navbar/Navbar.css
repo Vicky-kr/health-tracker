@@ -10,10 +10,14 @@
     padding: 18px 0px;
 }
 .logo-navbar{
+    /*align-items: center;*/
+    /*display: flex;*/
+    /*margin-left: 120px;*/
+    /*min-width: 164px;*/
     align-items: center;
     display: flex;
-    margin-left: 120px;
-    min-width: 164px;
+    margin-left: 6%;
+    min-width: 13%;
 }
 
 .overlap-group {
@@ -54,9 +58,9 @@
     align-self: center;
     display: flex;
     height: 59px;
-    margin-bottom: 3px;
-    margin-left: 508px;
-    min-width: 555px;
+    margin-bottom: -1%;
+    margin-left: 38%;
+    min-width: 43%;
 }
 
 .place-1 {
