@@ -1,6 +1,8 @@
 import React from "react";
 import './Navbar.css'
 
+
+
 export const Navbar = () => {
     const frame = {
         t: "H",
