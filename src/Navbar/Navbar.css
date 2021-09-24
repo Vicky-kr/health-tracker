@@ -1,15 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+:root{
+    --blueberry:#4F86F7;
+    --white:#ffff;
+}
 .frame-2 {
     align-items: flex-start;
     display: flex;
-    height: 90px;
-    padding: 18px 71px;
-    width: 1578px;
+    height: 61px;
+    padding: 18px 0px;
 }
-
-.logo {
+.logo-navbar{
     align-items: center;
     display: flex;
-    margin-left: 209px;
+    margin-left: 120px;
     min-width: 164px;
 }
 
@@ -43,7 +46,7 @@
     margin-left: 12px;
     margin-top: 1px;
     min-height: 21px;
-    min-width: 109px;
+    min-width: 116px;
 }
 
 .top-nav {
