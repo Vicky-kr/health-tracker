@@ -1,5 +1,6 @@
 import React from "react";
 import  "./Template3.css";
+import { useHistory } from "react-router-dom";
 import Rightpart from "../../Rightpart";
 import background from '../../bgimg.png';
 import {Navbar} from "../../Navbar/Navbar";
@@ -8,6 +9,8 @@ import {Navbar} from "../../Navbar/Navbar";
 
 const Template3 = () =>
 {
+
+    const  history  = useHistory();
          return(
              <>
          <Navbar/>
@@ -24,10 +27,9 @@ const Template3 = () =>
                  <label  for="password">eye</label>
                  <input   type="text" id="password" name="password" placeholder = "Conform your password"></input>
                  
-                 <button className = "subleft btnn ">sign up</button>
+                 <button   onClick = {()=> history.push('/loginpage')} className = "subleft btnn ">sign in</button>
                  <div className = "account subleft "> 
                   <span> Don't have an account ?</span>
-                  <button className = "subleft btnn">create one </button>
                  </div>
 
 
@@ -46,4 +48,5 @@ const Template3 = () =>
 };
 
 export default Template3;
+
 
