@@ -1,11 +1,15 @@
 import React from "react";
-import './Template4.css'
+import './Template4.css';
+import { useHistory } from "react-router-dom";
 import Rightpart from "../../Rightpart";
 import background from '../../bgimg.png';
 import {Navbar} from "../../Navbar/Navbar";
 
 
 const Template4 = () => {
+
+    const  history  = useHistory();
+
     return (
         <>
             <Navbar/>
@@ -21,10 +25,10 @@ const Template4 = () => {
                     <input type="text" id="password" name="password" placeholder="Enter your password"></input>
 
                     <button className="subleft btnn ">forgot password ?</button>
-                    <button className="subleft btnn">login</button>
+                    <button  onClick = {()=> history.push('/fillformpage')}  className="subleft btnn">login</button>
                     <div className="account subleft ">
                         <span> Don't have an account ?</span>
-                        <button className="subleft btnn">create one</button>
+                        <button  onClick = {()=> history.push('/signuppage')} className="subleft btnn">create one</button>
                     </div>
 
                 </div>
@@ -38,3 +42,4 @@ const Template4 = () => {
 };
 
 export default Template4;
+
