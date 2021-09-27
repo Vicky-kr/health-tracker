@@ -1,8 +1,12 @@
-import React from "react";
+ import React from "react";
 import './Navbar.css';
+import { useHistory } from "react-router-dom";
 
 
 export const Navbar = () => {
+
+    const  history  = useHistory();
+
     const frame = {
         t: "H",
         place: "Health Tracker",
@@ -21,7 +25,7 @@ export const Navbar = () => {
                             {frame.t}
                         </div>
                     </div>
-                    <div className="place">
+                    <div  onClick = {()=> history.push('/')}  className="place" >
                         {frame.place}
                     </div>
                 </div>
